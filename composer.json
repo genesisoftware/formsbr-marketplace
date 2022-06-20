@@ -1,0 +1,17 @@
+{
+    "name": "genesisoft/formsbr-marketplace",
+    "description": "Módulo para organização e personalização de formulários do módulo de Marketplace para o Brasil",
+    "type": "magento2-module",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {"genesisoft/formsbr": "~1.0",
+                "webkul/module-marketplace": "~2.0"},
+    "autoload": {
+        "psr-4": {
+            "Genesisoft\\FormsBrMarketplace\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
